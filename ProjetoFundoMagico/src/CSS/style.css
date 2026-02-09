@@ -1,0 +1,127 @@
+body {
+    background-color: #181d25;
+    color: azure;
+    background: url(../images/images/bg.JPG);
+    /*capa de fundo*, ../ volta para a pasta dentro de outra pasta ***/
+    font-family: 'Courgette', cursive;
+    line-height: 1.4;
+    padding: 32px 24px;
+}    
+
+.header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+
+    
+}
+
+.subtitle {
+    font-size: 20px;
+    color: rgb(255, 255, 255,0.8);
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+
+
+}
+
+.card{
+    border: 1.5px solid rgb(255, 255, 255,0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+    
+}
+.card-header {
+    text-align: center;
+    margin-bottom: 38px;
+    font-size: 25.5px;
+    
+}
+
+.form-group textarea {
+   background-color: rgba(255,255,255,0.05);
+   color: #ffffff;
+   width: 100%;
+   min-height: 120px;   
+   border: 1px solid #474646;
+   border-radius: 8px;
+   font-size: 17.5px;
+   margin-bottom: 20px;
+   padding: 16px;
+   resize: none;
+    
+}
+.form-group textarea:focus {
+    outline: none;
+    border-color: rgb(162, 103, 221);
+  
+}
+.form-group textarea::placeholder {
+    color: #a19e9e;
+
+    
+}
+
+.form-group .btn-magic {
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #a655f7 0%, #ff80aa 100%);
+    color:#ffffff;
+    font-size: 17.6px;
+    border:none;
+    border-radius: 7.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-group .btn-magic:hover {
+    transform: translateY(-3.5px);
+
+}
+
+.preview {
+    display: none;
+} 
+
+.code-grid{
+    display: flex;
+    gap: 24px;
+}
+.code-card{
+    background-color: #21242a;
+    border: 1px solid #ffffff33;
+    padding: 24px;
+    border-radius: 12px;
+    width: 50%;
+    text-align: center;
+}
+
+.code-title{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.code-block{
+    background-color: #0a0c10;
+    color: #7ae0d0;
+    border-radius: 8px;
+    padding: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
