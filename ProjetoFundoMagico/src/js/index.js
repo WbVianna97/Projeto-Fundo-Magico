@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return; // Se a descrição estiver vazia, não faz nada
         }
         console.log(descricao);
-        mostrarcarregamento(true);
+        mostrarCarregamento(true);
 
         //Realizar uma requisição para o HTTP(POST)  para  a API do n8n, enviar a descrição como parte do corpo da requisição
         try {
@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 );
+
 
 
 
