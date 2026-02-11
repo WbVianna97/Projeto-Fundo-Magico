@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             let tagEstilo = document.getElementById("estilo-dinamico");
             //se essa atg já existir, remover ela antes de criar uma nova
-            if (!tagEstilo) {
+            if (tagEstilo) {
                 tagEstilo.remove();
             }
             if (dados.css) {
@@ -98,6 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-});
+);
+
 
 
