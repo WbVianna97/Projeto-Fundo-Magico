@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
             secaoPreview.innerHTML = "";
 
         } finally {
-            mostrarcarregamento(false);
+            mostrarCarregamento(false);
 
         }
 
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-    function mostrarcarregamento(estaCarregando) {
+    function mostrarCarregamento(estaCarregando) {
         const botaoEnviar = document.getElementById("generate-btn");
         if (estaCarregando) {
             botaoEnviar.textContent = "Gerando seu Background...";
@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 );
+
 
 
 
