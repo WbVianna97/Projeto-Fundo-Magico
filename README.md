@@ -35,3 +35,5 @@ Boas práticas de organização de arquivos
 🎯 Objetivo do Projeto
 
 Demonstrar a aplicação prática de Inteligência Artificial no front-end, unindo criatividade, automação e desenvolvimento web para facilitar a criação de estilos visuais personalizados.
+
+Acesse o projeto no link - https://wbvianna97.github.io/IA-Fundo-M-gico-/
